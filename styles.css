@@ -1,5 +1,5 @@
 
-/* ---- Box Model Fix ---- */
+/* ---- Box Model ---- */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -12,19 +12,17 @@
   overflow: hidden;
 }
 
-/* ---- Column — Narrow (30%) ---- */
+/* ---- Column ---- */
 .column-narrow {
   width: 30%;
   float: left;
   padding-right: 3%;
-  min-height: 175px;
 }
 
-/* ---- Column — Wide (70%) ---- */
+/* ---- Column — Wide ---- */
 .column-wide {
   width: 70%;
   float: left;
-  min-height: 225px;
 }
 
 /* ---- Base / Body ---- */
@@ -95,7 +93,6 @@ a:hover {
   width: 30%;
   float: left;
   padding-right: 3%;
-  min-height: 175px;
   object-fit: cover;
   aspect-ratio: 1 / 1;
   object-position: center top;
@@ -178,7 +175,7 @@ section {
 
 section .content-wrap > div {
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 section .content-wrap > div:last-child {
